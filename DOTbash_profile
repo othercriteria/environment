@@ -1,8 +1,9 @@
 # .bash_profile
 # Daniel Klein (othercriteria@gmail.com) 2015-12-01
 
-alias ls="ls -G"
 alias em="open -a 'Aquamacs.app'"
+alias ju="jupyter notebook"
+alias ls="ls -G"
 alias ldd="otool -L"
 
 # Mostly useful for GIT commit messages
@@ -11,3 +12,15 @@ export EDITOR="emacs -nw"
 # Add Anaconda to path
 # TODO: see if there's a way to avoid "source" before commands...
 export PATH="/Users/dlk/anaconda/bin:$PATH"
+alias de="source deactivate"
+alias wo="source activate"
+
+# Enable bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+# Enable git bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
