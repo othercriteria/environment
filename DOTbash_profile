@@ -6,6 +6,11 @@ alias ju="jupyter notebook"
 alias ls="ls -G"
 alias ldd="otool -L"
 
+alias tmux-join="tmux attach -t"
+alias tmux-list="tmux list-sessions"
+alias tmux-make="tmux new -s"
+alias tmux-swap="tmux switch -t"
+
 # Mostly useful for GIT commit messages
 export EDITOR="emacs -nw"
 
