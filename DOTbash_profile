@@ -5,6 +5,7 @@ alias em="open -a 'Aquamacs.app'"
 alias ju="jupyter notebook"
 alias ls="ls -G"
 alias ldd="otool -L"
+alias sk="open -a 'Skim.app'"
 
 alias tmux-join="tmux attach -t"
 alias tmux-list="tmux list-sessions"
