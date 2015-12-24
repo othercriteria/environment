@@ -1,0 +1,5 @@
+[user]
+	email = othercriteria@gmail.com
+	name = Daniel Klein
+[push]
+	default = simple
