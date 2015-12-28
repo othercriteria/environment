@@ -4,7 +4,9 @@ Maintaining .bashrc, .bash_profile, etc.
 
 ## Installation
 
-Clone the repository into `~`.
+Clone the repository, copy contents to `~` under actual names (`DOT` -> `.`).
+
+TODO: script to automate this installation.
 
 ## Notes
 
