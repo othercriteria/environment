@@ -21,6 +21,11 @@ export PATH="/Users/dlk/anaconda/bin:$PATH"
 alias de="source deactivate"
 alias wo="source activate"
 
+# Setup NVM
+# See http://stackoverflow.com/questions/28017374/ for details
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
+
 # Enable bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
