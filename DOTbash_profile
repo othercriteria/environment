@@ -12,6 +12,9 @@ alias tmux-list="tmux list-sessions"
 alias tmux-make="tmux new -s"
 alias tmux-swap="tmux switch -t"
 
+# Don't use OSX's cruddy emacs
+alias emacs="emacs-24.5"
+
 # Mostly useful for GIT commit messages
 export EDITOR="emacs -nw"
 
