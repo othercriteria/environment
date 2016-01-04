@@ -29,6 +29,9 @@ alias wo="source activate"
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
 
+# Enable AWC CLI completion
+complete -C aws_completer aws
+
 # Enable bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
