@@ -18,6 +18,9 @@ alias emacs="emacs-24.5"
 # Mostly useful for GIT commit messages
 export EDITOR="emacs -nw"
 
+# Add Haskell Stack (and others) to path
+export PATH="/Users/dlk/.local/bin:$PATH"
+
 # Add Anaconda to path
 # TODO: see if there's a way to avoid "source" before commands...
 export PATH="/Users/dlk/anaconda/bin:$PATH"
