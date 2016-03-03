@@ -12,6 +12,9 @@ alias tmux-list="tmux list-sessions"
 alias tmux-make="tmux new -s"
 alias tmux-swap="tmux switch -t"
 
+# See https://hub.github.com/
+alias git=hub
+
 # Don't use OSX's cruddy emacs
 alias emacs="emacs-24.5"
 
