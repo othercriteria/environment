@@ -76,3 +76,6 @@ function playmidi {
             return 1
     fi  
 }
+
+# Satisfy brew doctor
+export PATH="/usr/local/sbin:$PATH"
