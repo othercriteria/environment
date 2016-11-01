@@ -16,7 +16,7 @@ alias tmux-swap="tmux switch -t"
 alias git=hub
 
 # Don't use OSX's cruddy emacs
-alias emacs="emacs-24.5"
+alias emacs="emacs-25.1"
 
 # Mostly useful for GIT commit messages
 export EDITOR="emacs -nw"
@@ -41,11 +41,6 @@ complete -C aws_completer aws
 # Enable bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
-fi
-
-# Enable git bash-completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    . $(brew --prefix)/etc/bash_completion
 fi
 
 # Enable conda bash-completion
