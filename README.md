@@ -2,6 +2,8 @@
 
 Maintaining .bashrc, .bash_profile, etc.
 
+TODO: deal with OSX/NixOS split.
+
 ## Installation
 
 Clone the repository, copy contents to `~` under actual names (`DOT` -> `.`).
